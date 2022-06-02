@@ -1,4 +1,4 @@
-// with given two digit number sum its dogots and return result
+// with given two digit number sum its digits and return result
 
 export const addTwoDigits = (n) => {
   return n.toString().split('').reduce((acc,num) => parseInt(num) + acc, 0);
@@ -107,6 +107,8 @@ export const evenDigitsOnly = (n) => {
   const arr = n.toString().split('');
   return arr.every(el =>  parseInt(el) % 2 === 0);
 }
+console.log("Hello Oleg")
+console.log('Hi there');
 
 // console.log(evenDigitsOnly(248622));
 // console.log(evenDigitsOnly(642386));
